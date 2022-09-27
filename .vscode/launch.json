@@ -1,0 +1,27 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "typeDebug",
+      "skipFiles": ["<node_internals>/**"],
+      // "program": "${workspaceFolder}\\feedscraper-server.js",
+      // "runtimeExecutable": "npx",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      // "runtimeArgs": ["ts-node-dev", "--respawn", "--pretty", "--transpile-only", "--watch", "src"],
+      // "program": "${workspaceFolder}\\src\\index.ts",
+      // "outFiles": ["${workspaceFolder}\\dist\\**\\*.js"], // Breakpoint on Ts files
+      "restart": true,
+      // "runtimeExecutable": "nodemon",
+      "outputCapture": "std",
+      "console": "integratedTerminal"
+
+      // "runtimeArgs": ["nodemon", "--nolazy", "--exitcrash"],
+    }
+  ]
+}
