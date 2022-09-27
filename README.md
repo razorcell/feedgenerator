@@ -1,1 +1,3 @@
-FeedScraper
+ - Clone the repo
+ - ```npm i ``` to install deps
+ - ```npm run dev ``` to run using nodemon
