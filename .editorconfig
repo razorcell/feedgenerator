@@ -1,0 +1,55 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": -1,
+  "editor.minimap.enabled": false,
+  // "editor.defaultFormatter": "octref.vetur",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+  },
+  "[javascript]": {
+    // "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+  // "prettier.tslintIntegration": true,
+  "editor.formatOnSave": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.scrollback": 100000,
+  "sync.gist": "2406273",
+  "editor.fontSize": 15,
+  "font-switcher.enableLivePreview": true,
+  "php.validate.executablePath": "C:\\wamp64\\bin\\php\\php7.3.5\\php.exe",
+  "terminal.integrated.rendererType": "dom",
+  // "editor.defaultFormatter": "Sophisticode.php-formatter",
+  // "editor.defaultFormatter": "HookyQR.beautify"
+  "phpformatter.composer": true,
+  "workbench.editor.enablePreview": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "html.format.contentUnformatted": "",
+  "editor.tokenColorCustomizations": null,
+  "gitlens.hovers.currentLine.enabled": false,
+  "gitlens.hovers.annotations.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.codeLens.scopes": [],
+  "gitlens.codeLens.enabled": false,
+  "workbench.colorTheme": "Deepdark Material Theme | Default Version",
+  "files.associations": {},
+  "workbench.colorCustomizations": {
+    "sideBar.foreground": "#D4D4D4"
+    // "gitDecoration.ignoredResourceForeground":"#ff0000"
+  },
+  "explorer.confirmDelete": false,
+  "editor.codeActionsOnSave": null,
+  "editor.renderControlCharacters": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.rulers": [],
+  "prettier.jsxBracketSameLine": true,
+  "prettier.printWidth": 180
+}

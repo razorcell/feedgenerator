@@ -1,0 +1,34 @@
+/node_modules
+# .eslintrc.json
+src/downloads/*
+!src/downloads/.gitkeep
+src/logs/*
+!src/logs/.gitkeep
+src/routes/api/downloads/*
+!src/routes/api/downloads/.gitkeep
+.env
+src/Trash/*
+/dist
+.DS_Store
+.DS_Store
+
+# Coverage
+coverage
+
+# Transpiled files
+build/
+
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# JetBrains IDEs
+.idea/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+.DS_Store

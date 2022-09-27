@@ -1,0 +1,46 @@
+{
+  "env": {
+    "node": true,
+    "browser": false,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "gfinalConfig": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "no-console": "off",
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "CallExpression[callee.object.name='console'][callee.property.name!=/^(log|warn|error|info|trace)$/]",
+        "message": "Unexpected property on console object was called"
+      }
+    ]
+  }
+  // "env": {
+  //     "commonjs": true,
+  //     "es6": true,
+  //     "node": true
+  // },
+  // "extends": "eslint:recommended",
+  // "globals": {},
+  // "parserOptions": {
+  //     "ecmaVersion": 2018
+  // },
+  // "rules": {
+  //     // "indent": ["error", "tab"],
+  //     // // "linebreak-style": ["error", "unix"],
+  //     // "quotes": ["error", "double"],
+  //     // "semi": ["error", "always"],
+  //     // // "array-bracket-spacing": ["error", "always"],
+  //     // "object-curly-spacing": ["error", "always"],
+  //     // // "space-in-parens": ["error", "always"]
+  // }
+}

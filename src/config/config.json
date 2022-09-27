@@ -1,0 +1,2736 @@
+{
+  "DEV": {
+    "testproxies": {
+      "tor_max_download_trials": 10,
+      "tor_timeout": 30000
+    },
+    "general": {
+      "tor_max_download_trials": 1000,
+      "tor_timeout": 60000,
+      "enable_download_log": true,
+      "enable_general_log": true,
+      "delay_min": 2,
+      "delay_max": 3,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "Connection": "close",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Accept": "text/html, */*; q=0.01"
+      },
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "default": {
+      "tor_max_download_trials": 1000,
+      "tor_timeout": 60000,
+      "enable_download_log": true,
+      "enable_general_log": true,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "Connection": "close",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Accept": "text/html, */*; q=0.01"
+      }
+    },
+    "heritage": {
+      "maximum_pages": 200,
+      "chunks_limit": 3000,
+      "chunck_size": 4,
+      "delay_min": 2,
+      "delay_max": 3,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0
+    },
+    "paraguay2": {
+      "maximum_pages": 200,
+      "chunks_limit": 3000,
+      "chunck_size": 4,
+      "delay_min": 2,
+      "delay_max": 3,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 1,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Referer": "https://live.euronext.com/en/products/equities/list",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Origin": "https://live.euronext.com",
+        "Connection": "keep-alive",
+        "Cookie": "_ga=GA1.2.1890581180.1575029753; _hjid=2200468e-ee14-457f-b614-6ea4a3eab721; _hjDonePolls=408179; TS01a5de3f=01010d1493523fc5c846af111fea1903ac762f691a93a995eb418ff611bfa97c3c18008a2d; _gid=GA1.2.191519464.1576509353; _gat=1"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,b.arrach@exchange-data.com"
+    },
+    "euronextetf": {
+      "EtfListSize": 500,
+      "maximum_pages": 300,
+      "chunks_limit": 1000,
+      "chunck_size": 6,
+      "delay_min": 2,
+      "delay_max": 3,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "cross-site",
+        "Sec-Fetch-User": "?1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "italy": {
+      "maximum_pages": 4,
+      "chunks_limit": 1000,
+      "chunck_size": 6,
+      "delay_min": 2,
+      "delay_max": 3,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 1,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,j.benriad@exchange-data.com"
+    },
+    "saudimstreq": {
+      "maximum_pages": 4,
+      "chunks_limit": 1000,
+      "chunck_size": 6,
+      "delay_min": 2,
+      "delay_max": 3,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 1,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.5",
+        "X-Requested-With": "XMLHttpRequest",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache"
+      },
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,a.voin@exchange-data.com",
+      "equityProfileTrs_target_tds": [
+        {
+          "id": 0,
+          "name": "authCapital"
+        },
+        {
+          "id": 1,
+          "name": "issuedShares"
+        },
+        {
+          "id": 2,
+          "name": "paidCapital"
+        }
+      ],
+      "equityProfileTrs2_target_tds": [
+        {
+          "id": 0,
+          "name": "parValue"
+        },
+        {
+          "id": 1,
+          "name": "paidUpValue"
+        }
+      ]
+    },
+    "mae": {
+      "limit": 1000,
+      "maximum_pages": 220,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 30000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 1,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "fisd": {
+      "limit": 1000,
+      "maximum_pages": 220,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 30000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "lesechos": {
+      "limit": 1000,
+      "maximum_pages": 20,
+      "chunks_limit": 200,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 5,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 1,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Upgrade-Insecure-Requests": "1",
+        "referrer": "Referer: https://investir.lesechos.fr/actualites/toute-l-actualite.php?filtre=recents&page=1"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,a.voin@exchange-data.com,j.benhimouda@exchange-data.com,y.baddouh@exchange-data.com",
+      "SearchKeywords": [
+        "offre publique",
+        "tender offer",
+        "RACHAT",
+        "OFFRE PUBLIQUE DE RACHAT",
+        "rights",
+        "Voting Rights",
+        "rapport financier",
+        "droits de vote",
+        "Assemblée Générale",
+        "assemble",
+        "dividend",
+        "valeur nominale",
+        "Par value",
+        "fusion",
+        "merger",
+        "acquisition",
+        "scission",
+        "stock split",
+        "split",
+        "Bonus",
+        "distribution",
+        "dividendes",
+        "dividend",
+        "meeting",
+        "assembly",
+        "suspension",
+        "resumption",
+        "merger",
+        "fusion",
+        "takeover",
+        "offre publique",
+        "regroupement",
+        "changement",
+        "dénomination",
+        "rights",
+        "resumption",
+        "listing",
+        "Cotation",
+        "nominal",
+        "Right",
+        "bon subscription",
+        "Nominale",
+        "augmentation capital",
+        "coupon",
+        "Acompte",
+        "mise en paiement",
+        "Detachment",
+        "Reverse split",
+        "augmentation capital",
+        "Nombre d'action",
+        "Offre publique",
+        "rapport annuel",
+        "IPO",
+        "new listing",
+        "public offering",
+        "ETF",
+        "Assimilation",
+        "Retrait obligatoire",
+        "Squeeze out",
+        "Market Segment",
+        "Bonus Issue",
+        "Par Value Redenomination",
+        "Capital Reduction",
+        "International Code Change",
+        "Return of Capital",
+        "Issuer Name Change    ",
+        "Security Description Change",
+        "Consolidation",
+        "Reverse Stock Split",
+        "Liquidation",
+        "Security Re-classification",
+        "Listing Status Change",
+        "Security Swap",
+        "Local Code Change",
+        "Sedol Change",
+        "Buyback",
+        "Repurchase",
+        "Reinvestment Plan",
+        "Purchase Offer",
+        "Entitlement",
+        "Company Meetings",
+        "Demerger",
+        "Registered Office Change",
+        "Résultats annuels",
+        "Delisting"
+      ]
+    },
+    "globalnewswire": {
+      "limit": 1000,
+      "maximum_pages": 20,
+      "chunks_limit": 200,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 5,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 1,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Upgrade-Insecure-Requests": "1",
+        "referrer": "https://www.globenewswire.com/search/exchange/paris%252520stock%252520exchange"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,a.voin@exchange-data.com,j.benhimouda@exchange-data.com,y.baddouh@exchange-data.com",
+      "SearchKeywords": [
+        "offre publique",
+        "tender offer",
+        "RACHAT",
+        "OFFRE PUBLIQUE DE RACHAT",
+        "rights",
+        "Voting Rights",
+        "rapport financier",
+        "droits de vote",
+        "Assemblée Générale",
+        "assemble",
+        "dividend",
+        "valeur nominale",
+        "Par value",
+        "fusion",
+        "merger",
+        "acquisition",
+        "scission",
+        "stock split",
+        "split",
+        "Bonus",
+        "distribution",
+        "dividendes",
+        "dividend",
+        "meeting",
+        "assembly",
+        "suspension",
+        "resumption",
+        "merger",
+        "fusion",
+        "takeover",
+        "offre publique",
+        "regroupement",
+        "changement",
+        "dénomination",
+        "rights",
+        "resumption",
+        "listing",
+        "Cotation",
+        "nominal",
+        "Right",
+        "bon subscription",
+        "Nominale",
+        "augmentation capital",
+        "coupon",
+        "Acompte",
+        "mise en paiement",
+        "Detachment",
+        "Reverse split",
+        "augmentation capital",
+        "Nombre d'action",
+        "Offre publique",
+        "rapport annuel",
+        "IPO",
+        "new listing",
+        "public offering",
+        "ETF",
+        "Assimilation",
+        "Retrait obligatoire",
+        "Squeeze out",
+        "Market Segment",
+        "Bonus Issue",
+        "Par Value Redenomination",
+        "Capital Reduction",
+        "International Code Change",
+        "Return of Capital",
+        "Issuer Name Change    ",
+        "Security Description Change",
+        "Consolidation",
+        "Reverse Stock Split",
+        "Liquidation",
+        "Security Re-classification",
+        "Listing Status Change",
+        "Security Swap",
+        "Local Code Change",
+        "Sedol Change",
+        "Buyback",
+        "Repurchase",
+        "Reinvestment Plan",
+        "Purchase Offer",
+        "Entitlement",
+        "Company Meetings",
+        "Demerger",
+        "Registered Office Change",
+        "Résultats annuels",
+        "Delisting"
+      ]
+    },
+    "businesswire": {
+      "limit": 1000,
+      "maximum_pages": 60,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 5,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "Accept": "*/*"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,a.voin@exchange-data.com,j.benhimouda@exchange-data.com,y.baddouh@exchange-data.com",
+      "SearchKeywords": [
+        "offre publique",
+        "tender offer",
+        "RACHAT",
+        "OFFRE PUBLIQUE DE RACHAT",
+        "rights",
+        "Voting Rights",
+        "rapport financier",
+        "droits de vote",
+        "Assemblée Générale",
+        "assemble",
+        "dividend",
+        "valeur nominale",
+        "Par value",
+        "fusion",
+        "merger",
+        "acquisition",
+        "scission",
+        "stock split",
+        "split",
+        "Bonus",
+        "distribution",
+        "dividendes",
+        "dividend",
+        "meeting",
+        "assembly",
+        "suspension",
+        "resumption",
+        "merger",
+        "fusion",
+        "takeover",
+        "offre publique",
+        "regroupement",
+        "changement",
+        "dénomination",
+        "rights",
+        "resumption",
+        "listing",
+        "Cotation",
+        "nominal",
+        "Right",
+        "bon subscription",
+        "Nominale",
+        "augmentation capital",
+        "coupon",
+        "Acompte",
+        "mise en paiement",
+        "Detachment",
+        "Reverse split",
+        "augmentation capital",
+        "Nombre d'action",
+        "Offre publique",
+        "rapport annuel",
+        "IPO",
+        "new listing",
+        "public offering",
+        "ETF",
+        "Assimilation",
+        "Retrait obligatoire",
+        "Squeeze out",
+        "Market Segment",
+        "Bonus Issue",
+        "Par Value Redenomination",
+        "Capital Reduction",
+        "International Code Change",
+        "Return of Capital",
+        "Issuer Name Change    ",
+        "Security Description Change",
+        "Consolidation",
+        "Reverse Stock Split",
+        "Liquidation",
+        "Security Re-classification",
+        "Listing Status Change",
+        "Security Swap",
+        "Local Code Change",
+        "Sedol Change",
+        "Buyback",
+        "Repurchase",
+        "Reinvestment Plan",
+        "Purchase Offer",
+        "Entitlement",
+        "Company Meetings",
+        "Demerger",
+        "Registered Office Change",
+        "Résultats annuels",
+        "Delisting"
+      ]
+    },
+    "msrb": {
+      "limit": 1000,
+      "maximum_pages": 10,
+      "chunksStart": 0,
+      "chunks_limit": 1000,
+      "chunck_size": 4,
+      "categoriesChunckSize": 4,
+      "categoriesChuncksLimit": 12,
+      "delay_min": 4,
+      "delay_max": 6,
+      "tor_timeout": 600000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 1,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1"
+      },
+      "getNoticesHeaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Content-Type": "application/json; charset=utf-8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Origin": "https://emma.msrb.org",
+        "Referer": "https://emma.msrb.org/Search/Search.aspx/GetSearchResult"
+      },
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,MSmith@fiinet.com,ANecci@fiinet.com",
+      "categories": [
+        { "id": "30", "label": "Bond-Call" },
+        { "id": "37", "label": "Bankruptcy-Insolvency" },
+        { "id": "31", "label": "Defeasance" },
+        { "id": "45", "label": "Litigation-Enforcement-Action" },
+        { "id": "36", "label": "Merger-Consolidation" },
+        { "id": "49", "label": "Other-Event-based-Disclosures" },
+        { "id": "23", "label": "Principal-Interest-Payment" },
+        { "id": "35", "label": "Tender-Offer" }
+      ],
+      "searchReqBody": {
+        "searchCriteriaForm": {
+          "ABSDisclosureTypes": [],
+          "ARDisclosure": false,
+          "Callable": "",
+          "CallDateBegin": "",
+          "CallDateEnd": "",
+          "CallPriceBegin": "",
+          "CallPriceEnd": "",
+          "ClosingDateBegin": "",
+          "ClosingDateEnd": "",
+          "Cusip": "",
+          "CusipGroupId": "",
+          "DatedDateBegin": "",
+          "DatedDateEnd": "",
+          "EventDisclosures": [],
+          "FinancialDisclosures": [],
+          "FitchOperator": "",
+          "FitchRatingCode": "",
+          "IncludeFullyCalledSecurities": false,
+          "IncludeMaturedSecurities": false,
+          "Insured": "",
+          "InterestRateBegin": "",
+          "InterestRateEnd": "",
+          "IssueDescription": "",
+          "IssuerName": "",
+          "KrollOperator": "",
+          "KrollRatingCode": "",
+          "MaturityDateBegin": "",
+          "MaturityDateEnd": "",
+          "MoodysOperator": "",
+          "MoodysRatingCode": "",
+          "PMDisclosure": false,
+          "PostingDateBegin": "",
+          "PostingDateEnd": "",
+          "Purpose": "",
+          "RateType": "",
+          "SecuredBy": "",
+          "SecurityType": "ALL",
+          "SetCDTabDefault": true,
+          "ShortDisclosure": false,
+          "SNPOperator": "",
+          "SNPRatingCode": "",
+          "State": "",
+          "Taxable": "",
+          "TradeAmountBegin": "",
+          "TradeAmountEnd": "",
+          "TradeDateBegin": "",
+          "TradeDateEnd": "",
+          "TradePriceBegin": "",
+          "TradePriceEnd": "",
+          "TradeSpecialCondition": "",
+          "TradeType": "",
+          "TradeYieldBegin": "",
+          "TradeYieldEnd": ""
+        }
+      }
+    },
+    "actusnews": {
+      "limit": 1000,
+      "maximum_pages": 10,
+      "chunks_limit": 999,
+      "chunck_size": 4,
+      "delay_min": 3,
+      "delay_max": 5,
+      "tor_timeout": 30000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,a.voin@exchange-data.com,j.benhimouda@exchange-data.com,y.baddouh@exchange-data.com",
+      "SearchKeywords": [
+        "offre publique",
+        "tender offer",
+        "RACHAT",
+        "OFFRE PUBLIQUE DE RACHAT",
+        "rights",
+        "Voting Rights",
+        "rapport financier",
+        "droits de vote",
+        "Assemblée Générale",
+        "assemble",
+        "dividend",
+        "valeur nominale",
+        "Par value",
+        "fusion",
+        "merger",
+        "acquisition",
+        "scission",
+        "stock split",
+        "split",
+        "Bonus",
+        "distribution",
+        "dividendes",
+        "dividend",
+        "meeting",
+        "assembly",
+        "suspension",
+        "resumption",
+        "merger",
+        "fusion",
+        "takeover",
+        "offre publique",
+        "regroupement",
+        "changement",
+        "dénomination",
+        "rights",
+        "resumption",
+        "listing",
+        "Cotation",
+        "nominal",
+        "Right",
+        "bon subscription",
+        "Nominale",
+        "augmentation capital",
+        "coupon",
+        "Acompte",
+        "mise en paiement",
+        "Detachment",
+        "Reverse split",
+        "augmentation capital",
+        "Nombre d'action",
+        "Offre publique",
+        "rapport annuel",
+        "IPO",
+        "new listing",
+        "public offering",
+        "ETF",
+        "Assimilation",
+        "Retrait obligatoire",
+        "Squeeze out",
+        "Market Segment",
+        "Bonus Issue",
+        "Par Value Redenomination",
+        "Capital Reduction",
+        "International Code Change",
+        "Return of Capital",
+        "Issuer Name Change    ",
+        "Security Description Change",
+        "Consolidation",
+        "Reverse Stock Split",
+        "Liquidation",
+        "Security Re-classification",
+        "Listing Status Change",
+        "Security Swap",
+        "Local Code Change",
+        "Sedol Change",
+        "Buyback",
+        "Repurchase",
+        "Reinvestment Plan",
+        "Purchase Offer",
+        "Entitlement",
+        "Company Meetings",
+        "Demerger",
+        "Registered Office Change",
+        "Résultats annuels",
+        "Delisting"
+      ]
+    },
+    "mexicoso": {
+      "limit": 1000,
+      "maximum_pages": 500,
+      "chunks_limit": 4000,
+      "chunck_size": 5,
+      "delay_min": 2,
+      "delay_max": 3,
+      "tor_timeout": 60000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 1,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0",
+        "referrer": "https://www.bmv.com.mx/es/emisoras/informacion-de-emisoras"
+      },
+      "secTypes": [
+        {
+          "label": "ACCIONES",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELAC"
+        },
+        {
+          "label": "WARRANTS",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELWA"
+        },
+        {
+          "label": "TRAC",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELTRA"
+        },
+        {
+          "label": "CKD",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELCK"
+        },
+        {
+          "label": "FIBRAS",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELFI"
+        },
+        {
+          "label": "FIDEICO",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELFH"
+        },
+
+        {
+          "label": "ACCIONES",
+          "idTipoMercado": "CGEN_GLOB",
+          "idTipoInstrumento": "CGEN_ELGA"
+        },
+        {
+          "label": "ETF",
+          "idTipoMercado": "CGEN_GLOB",
+          "idTipoInstrumento": "CGEN_ELGE"
+        }
+      ],
+      "listingDateTargetTDs": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,o.banna@exchange-data.com,k.ouhra@exchange-data.com,a.voin@exchange-data.com"
+    },
+    "mexicoeqca": {
+      "limit": 1000,
+      "maximum_pages": 500,
+      "chunks_limit": 4000,
+      "chunck_size": 5,
+      "delay_min": 2,
+      "delay_max": 7,
+      "tor_timeout": 60000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 1,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0",
+        "referrer": "https://www.bmv.com.mx/es/emisoras/informacion-de-emisoras"
+      },
+      "secTypes": [
+        {
+          "label": "ACCIONES",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELAC"
+        },
+        {
+          "label": "WARRANTS",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELWA"
+        },
+        {
+          "label": "TRAC",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELTRA"
+        },
+        {
+          "label": "CKD",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELCK"
+        },
+        {
+          "label": "FIBRAS",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELFI"
+        },
+        {
+          "label": "FIDEICO",
+          "idTipoMercado": "CGEN_CAPIT",
+          "idTipoInstrumento": "CGEN_ELFH"
+        },
+
+        {
+          "label": "ACCIONES",
+          "idTipoMercado": "CGEN_GLOB",
+          "idTipoInstrumento": "CGEN_ELGA"
+        },
+        {
+          "label": "ETF",
+          "idTipoMercado": "CGEN_GLOB",
+          "idTipoInstrumento": "CGEN_ELGE"
+        }
+      ],
+      "NoticesTargetTDs": [
+        {
+          "id": 0,
+          "name": "time"
+        },
+        {
+          "id": 1,
+          "name": "title"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,o.banna@exchange-data.com,k.ouhra@exchange-data.com,a.voin@exchange-data.com"
+    },
+    "mexicoetf": {
+      "limit": 1000,
+      "maximum_pages": 500,
+      "chunks_limit": 4000,
+      "chunck_size": 5,
+      "delay_min": 2,
+      "delay_max": 3,
+      "tor_timeout": 60000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 1,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0",
+        "referrer": "https://www.bmv.com.mx/es/emisoras/informacion-de-emisoras"
+      },
+      "listingDateTargetTDs": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,o.banna@exchange-data.com,k.ouhra@exchange-data.com,a.voin@exchange-data.com"
+    },
+    "mexicoreits": {
+      "limit": 1000,
+      "maximum_pages": 500,
+      "chunks_limit": 4000,
+      "chunck_size": 5,
+      "delay_min": 2,
+      "delay_max": 3,
+      "tor_timeout": 60000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 1,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0",
+        "referrer": "https://www.bmv.com.mx/es/emisoras/informacion-de-emisoras"
+      },
+      "listingDateTargetTDs": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,o.banna@exchange-data.com,k.ouhra@exchange-data.com,a.voin@exchange-data.com"
+    },
+    "bondtd": {
+      "limit": 1000,
+      "maximum_pages": 500,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 30000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "italyreits": {
+      "limit": 1000,
+      "maximum_pages": 500,
+      "chunks_limit": 600,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 30000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,t.boutzad@exchange-data.com",
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "targetTdsDiv": [
+        {
+          "id": 0,
+          "name": "share"
+        },
+        {
+          "id": 1,
+          "name": "DpsBod"
+        },
+        {
+          "id": 2,
+          "name": "currency"
+        },
+        {
+          "id": 3,
+          "name": "exDate"
+        },
+        {
+          "id": 4,
+          "name": "payDate"
+        },
+        {
+          "id": 5,
+          "name": "notice"
+        }
+      ]
+    },
+    "poland": {
+      "limit": 1000,
+      "maximum_pages": 500,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 30000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com",
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ]
+    },
+    "slovenia": {
+      "maximum_pages": 500,
+      "chunks_limit": 500,
+      "chunck_size": 4,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "finanzen": {
+      "maximum_pages": 500,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 30000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,iyappan.v@exchange-data.in,nekitha.r@exchange-data.in,janani.r@exchange-data.in",
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "name_tag"
+        },
+        {
+          "id": 1,
+          "name": "wkn"
+        },
+        {
+          "id": 2,
+          "name": "Emissionsdatum"
+        },
+        {
+          "id": 3,
+          "name": "Kupon"
+        }
+      ],
+      "target_tds_details": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ]
+    },
+    "preferreddiv": {
+      "maximum_pages": 3,
+      "chunks_limit": 5000,
+      "chunck_size": 2,
+      "delay_min": 2,
+      "delay_max": 4,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 1,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,karthicknathan.l@exchange-data.in",
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "year"
+        },
+        {
+          "id": 1,
+          "name": "decDate"
+        },
+        {
+          "id": 2,
+          "name": "exDate"
+        },
+        {
+          "id": 3,
+          "name": "recDate"
+        },
+        {
+          "id": 4,
+          "name": "payDate"
+        },
+        {
+          "id": 5,
+          "name": "amount"
+        }
+      ]
+    },
+    "denmark": {
+      "page_limit": 1000,
+      "get_bonds_list_size": 500,
+      "get_bonds_details_chunck_size": 4,
+      "tor_max_download_trials": 1000,
+      "tor_timeout": 30000,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0",
+        "Accept": "text/html, */*; q=0.01",
+        "Accept-Language": "fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Origin": "http://www.nasdaqomxnordic.com",
+        "Connection": "close"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,h.koukam@exchange-data.com"
+    },
+    "euronext_equities": {
+      "page_limit": 50,
+      "get_bonds_list_size": 500,
+      "get_securities_details_chunck_size": 3
+    },
+    "marketwatch": {
+      "get_securities_limit_size": 2,
+      "get_securities_details_chunck_size": 2
+    },
+    "italyetf": {
+      "page_limit": 20000,
+      "get_securities_details_chunck_size": 8,
+      "maximum_pages": 20000,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 7,
+      "tor_timeout": 20000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 1000,
+      "use_tor": 1,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {
+        "Connection": "close",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "cors",
+        "Referer": "https://www.borsaitaliana.it/borsa/etf.html?lang=en",
+        "Accept-Encoding": "gzip",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,t.boutzad@exchange-data.com"
+    },
+    "italyfloat": {
+      "getshares_chunks_limit": 1,
+      "getshares_chunck_size": 1,
+      "getshares_pages_per_letter_limit": 1,
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,t.boutzad@exchange-data.com"
+    },
+    "italyconsob": {
+      "getshares_page_limit": 50,
+      "getFloats_chunck_size": 5,
+      "getFloats_chunks_limit": 1000,
+      "maximum_pages": 50,
+      "chunks_limit": 1000,
+      "chunck_size": 5,
+      "delay_min": 2,
+      "delay_max": 3,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 1,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3",
+        "Connection": "keep-alive",
+        "Referer": "http://www.consob.it/web/consob-and-its-activities/listed-companies?viewId=azionariati_attuali",
+        "Upgrade-Insecure-Requests": "1",
+        "Cookie": "JSESSIONID=Mi2LrPP4pqEf0xdjXYekRIMj.CNB104-LZ; COOKIE_SUPPORT=true; GUEST_LANGUAGE_ID=en_GB; _ga=GA1.2.1163554188.1584013283; _gid=GA1.2.24502222.1584013283; _gat=1; ConsobSitoFontSize=null"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,t.boutzad@exchange-data.com"
+    },
+    "jse": {
+      "tor_timeout": 200000
+    },
+    "boursedirect": {
+      "matchshares_chunks_limit": 600,
+      "matchshares_chunck_size": 10,
+      "floaturls_chunks_limit": 600,
+      "floaturls_chunck_size": 10,
+      "getfloats_chunks_limit": 600,
+      "getfloats_chunck_size": 10,
+      "chunks_limit": 2000,
+      "chunck_size": 10,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 25000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,j.benhimouda@exchange-data.com,y.baddouh@exchange-data.com"
+    },
+    "germanff": {
+      "matchshares_chunks_limit": 2,
+      "matchshares_chunck_size": 3,
+      "getfloats_chunks_limit": 2,
+      "getfloats_chunck_size": 3,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 4,
+      "delay_max": 6,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 40,
+      "use_tor": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {},
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,a.bousaid@exchange-data.com"
+    },
+    "rosario": {
+      "all_details_chunks_limit": 50,
+      "all_details_chunck_size": 5,
+      "getfloats_chunks_limit": 1000,
+      "getfloats_chunck_size": 10
+    },
+    "belarus": {
+      "maximum_pages": 600,
+      "chunks_limit": 1000,
+      "chunck_size": 3,
+      "delay_min": 7,
+      "delay_max": 13,
+      "tor_timeout": 20000,
+      "tor_max_download_trials": 1000,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "londonse": {
+      "maximum_pages": 600,
+      "chunks_limit": 500,
+      "chunck_size": 5,
+      "delay_min": 7,
+      "delay_max": 10,
+      "req_timeout": 60000,
+      "puppeteer_timeout": 70000,
+      "pupeteer_max_trials": 500,
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "ireland": {
+      "maximum_pages": 600,
+      "chunks_limit": 3000,
+      "chunck_size": 4,
+      "delay_min": 5,
+      "delay_max": 8,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 20000,
+      "pupeteer_max_trials": 500,
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "maltaan": {
+      "maximum_pages": 10,
+      "chunks_limit": 200,
+      "chunck_size": 4,
+      "delay_min": 5,
+      "delay_max": 8,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 20000,
+      "pupeteer_max_trials": 500,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0",
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Connection": "close"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,iyappan.v@exchange-data.in,nekitha.r@exchange-data.in,janani.r@exchange-data.in"
+    },
+    "maltanews": {
+      "maximum_pages": 4,
+      "chunks_limit": 200,
+      "chunck_size": 4,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 200000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "investigate": {
+      "maximum_pages": 1,
+      "chunks_limit": 1,
+      "chunck_size": 1,
+      "delay_min": 2,
+      "delay_max": 4,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 20000,
+      "pupeteer_max_trials": 500,
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "stamdanish": {
+      "maximum_pages": 1,
+      "chunks_limit": 1,
+      "chunck_size": 1,
+      "delay_min": 2,
+      "delay_max": 4,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 20000,
+      "pupeteer_max_trials": 500,
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "irelandbondsnews": {
+      "maximum_pages": 3,
+      "chunks_limit": 1000,
+      "chunck_size": 4,
+      "delay_min": 2,
+      "delay_max": 4,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 1,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "irelandregulatornews": {
+      "maximum_pages": 3,
+      "chunks_limit": 200,
+      "chunck_size": 4,
+      "delay_min": 2,
+      "delay_max": 4,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 20000,
+      "pupeteer_max_trials": 500,
+      "use_tor": 1,
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "singaporeexann": {
+      "maximum_pages": 3,
+      "chunks_limit": 200,
+      "chunck_size": 4,
+      "delay_min": 2,
+      "delay_max": 4,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "use_tor": 1,
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "saudidividends": {
+      "maximum_pages": 4,
+      "chunks_limit": 5000,
+      "chunck_size": 3,
+      "delay_min": 2,
+      "delay_max": 3,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.5",
+        "X-Requested-With": "XMLHttpRequest",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,a.voin@exchange-data.com",
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "AnnDate"
+        },
+        {
+          "id": 1,
+          "name": "DueDate"
+        },
+        {
+          "id": 2,
+          "name": "DistrDate"
+        },
+        {
+          "id": 3,
+          "name": "DistrWay"
+        },
+        {
+          "id": 4,
+          "name": "Amount"
+        }
+      ]
+    },
+    "sgxmasfrnauctions": {
+      "max_interest_page_down_trials": 60,
+      "maximum_pages": 4,
+      "chunks_limit": 200,
+      "chunck_size": 4,
+      "delay_min": 4,
+      "delay_max": 6,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "sgxmassavinterest": {
+      "max_interest_page_down_trials": 60,
+      "maximum_pages": 4,
+      "chunks_limit": 200,
+      "chunck_size": 4,
+      "delay_min": 4,
+      "delay_max": 6,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "sgxmassavingauctions": {
+      "maximum_pages": 4,
+      "chunks_limit": 200,
+      "chunck_size": 4,
+      "delay_min": 4,
+      "delay_max": 6,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache"
+      },
+      "pdfDownloadHeaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Content-Type": "applcation/pdf",
+        "Origin": "https://eservices.mas.gov.sg",
+        "Connection": "close",
+        "Referer": "https://www.mas.gov.sg/bonds-and-bills/auctions-and-issuance-calendar/previous-t-bills-auction-announcements-and-results",
+        "Upgrade-Insecure-Requests": "1"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,iyappan.v@exchange-data.in"
+    },
+    "sgxmas": {
+      "maximum_pages": 4,
+      "chunks_limit": 200,
+      "chunck_size": 4,
+      "delay_min": 4,
+      "delay_max": 6,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "proxylist": {
+      "chunks_limit": 200,
+      "chunck_size": 3,
+      "delay_min": 4,
+      "delay_max": 6,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {}
+    },
+    "germandlist": {
+      "maximum_pages": 4,
+      "chunks_limit": 200,
+      "chunck_size": 3,
+      "delay_min": 6,
+      "delay_max": 12,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {},
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "cbonds": {
+      "maximum_pages": 4,
+      "chunks_limit": 200,
+      "chunck_size": 3,
+      "delay_min": 6,
+      "delay_max": 12,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 200,
+      "use_tor": 0,
+      "use_ediagadir_proxy": 0,
+      "use_awsproxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Connection": "close",
+        "Origin": "https://cbonds.com",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Referer": "https://cbonds.com/news/?page=1",
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json;charset=utf-8"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "taiwanmstr": {
+      "maximum_pages": 4,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 4,
+      "delay_max": 8,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "isin"
+        },
+        {
+          "id": 2,
+          "name": "issued"
+        },
+        {
+          "id": 3,
+          "name": "maturity"
+        },
+        {
+          "id": 4,
+          "name": "interest"
+        },
+        {
+          "id": 5,
+          "name": "market"
+        },
+        {
+          "id": 7,
+          "name": "cficode"
+        }
+      ],
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,iyappan.v@exchange-data.in"
+    },
+    "kase": {
+      "articlesperpage": 55,
+      "maximum_pages": 600,
+      "chunks_limit": 600,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 7,
+      "tor_timeout": 300000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 1,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "referrer": "https://kase.kz/en/tickers/"
+      },
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "ticker"
+        },
+        {
+          "id": 1,
+          "name": "issuer"
+        },
+        {
+          "id": 2,
+          "name": "isin"
+        },
+        {
+          "id": 3,
+          "name": "type"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "kacd": {
+      "articlesperpage": 55,
+      "maximum_pages": 600,
+      "chunks_limit": 600,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 7,
+      "tor_timeout": 300000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 1,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "referrer": "http://www.kacd.kz/en/stats/fi/2/"
+      },
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "isin"
+        },
+        {
+          "id": 1,
+          "name": "type"
+        },
+        {
+          "id": 2,
+          "name": "issuer"
+        },
+        {
+          "id": 4,
+          "name": "bin"
+        },
+        {
+          "id": 6,
+          "name": "status"
+        },
+        {
+          "id": 7,
+          "name": "issuedate"
+        },
+        {
+          "id": 8,
+          "name": "maturity"
+        },
+        {
+          "id": 9,
+          "name": "parvalue"
+        },
+        {
+          "id": 12,
+          "name": "pperiodicity"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "safricasens": {
+      "articlesperpage": 55,
+      "maximum_pages": 600,
+      "chunks_limit": 600,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 7,
+      "tor_timeout": 300000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.5",
+        "referrer": "http://www.sharedata.co.za/v2/Scripts/SensSearch.aspx"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "malasiaauctglob": {
+      "articlesperpage": 55,
+      "maximum_pages": 2,
+      "chunks_limit": 1000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 300000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 1,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "Origin": "https://fast.bnm.gov.my",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Accept-Encoding": "gzip, deflate, br",
+        "referrer": "https://fast.bnm.gov.my/fastweb/public/FastPublicBrowseServlet.do?mode=MAIN&taskId=PB010400"
+      },
+      "ANNOUNCEMENTS_target_tds": [
+        {
+          "id": 1,
+          "name": "newsid"
+        },
+        {
+          "id": 2,
+          "name": "embargodate"
+        },
+        {
+          "id": 3,
+          "name": "organization"
+        },
+        {
+          "id": 4,
+          "name": "type"
+        },
+        {
+          "id": 5,
+          "name": "subject"
+        }
+      ],
+      "ANNOUNCEMENTS_target_tds_article": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "AUCTIONS_target_tds": [
+        {
+          "id": 1,
+          "name": "description"
+        },
+        {
+          "id": 2,
+          "name": "code"
+        },
+        {
+          "id": 3,
+          "name": "stockcode"
+        },
+        {
+          "id": 4,
+          "name": "issuer"
+        },
+        {
+          "id": 5,
+          "name": "issuedate"
+        },
+        {
+          "id": 6,
+          "name": "agent"
+        }
+      ],
+      "AUCTIONS_target_tds_article": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "STOCK_target_tds": [
+        {
+          "id": 1,
+          "name": "code"
+        },
+        {
+          "id": 2,
+          "name": "description"
+        },
+        {
+          "id": 3,
+          "name": "isin"
+        },
+        {
+          "id": 4,
+          "name": "issuer"
+        },
+        {
+          "id": 5,
+          "name": "facilitycode"
+        },
+        {
+          "id": 6,
+          "name": "instrumentid"
+        },
+        {
+          "id": 7,
+          "name": "issuedate"
+        },
+        {
+          "id": 8,
+          "name": "maturity"
+        },
+        {
+          "id": 9,
+          "name": "currency"
+        },
+        {
+          "id": 10,
+          "name": "exchnagerate"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "malasiaannpdf": {
+      "articlesperpage": 55,
+      "maximum_pages": 2,
+      "chunks_limit": 1000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 300000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "Origin": "https://fast.bnm.gov.my",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Accept-Encoding": "gzip, deflate, br",
+        "referrer": "https://fast.bnm.gov.my/fastweb/public/FastPublicBrowseServlet.do?mode=MAIN&taskId=PB010400"
+      },
+      "ANNOUNCEMENTS_target_tds": [
+        {
+          "id": 1,
+          "name": "newsid"
+        },
+        {
+          "id": 2,
+          "name": "embargodate"
+        },
+        {
+          "id": 3,
+          "name": "organization"
+        },
+        {
+          "id": 4,
+          "name": "type"
+        },
+        {
+          "id": 5,
+          "name": "subject"
+        }
+      ],
+      "ANNOUNCEMENTS_target_tds_article": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "AUCTIONS_target_tds": [
+        {
+          "id": 1,
+          "name": "description"
+        },
+        {
+          "id": 2,
+          "name": "code"
+        },
+        {
+          "id": 3,
+          "name": "stockcode"
+        },
+        {
+          "id": 4,
+          "name": "issuer"
+        },
+        {
+          "id": 5,
+          "name": "issuedate"
+        },
+        {
+          "id": 6,
+          "name": "agent"
+        }
+      ],
+      "AUCTIONS_target_tds_article": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "STOCK_target_tds": [
+        {
+          "id": 1,
+          "name": "code"
+        },
+        {
+          "id": 2,
+          "name": "description"
+        },
+        {
+          "id": 3,
+          "name": "isin"
+        },
+        {
+          "id": 4,
+          "name": "issuer"
+        },
+        {
+          "id": 5,
+          "name": "facilitycode"
+        },
+        {
+          "id": 6,
+          "name": "instrumentid"
+        },
+        {
+          "id": 7,
+          "name": "issuedate"
+        },
+        {
+          "id": 8,
+          "name": "maturity"
+        },
+        {
+          "id": 9,
+          "name": "currency"
+        },
+        {
+          "id": 10,
+          "name": "exchnagerate"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "malasiaann": {
+      "articlesperpage": 55,
+      "maximum_pages": 2,
+      "chunks_limit": 1000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 300000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "Origin": "https://fast.bnm.gov.my",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Accept-Encoding": "gzip, deflate, br",
+        "referrer": "https://fast.bnm.gov.my/fastweb/public/FastPublicBrowseServlet.do?mode=MAIN&taskId=PB010400"
+      },
+      "ANNOUNCEMENTS_target_tds": [
+        {
+          "id": 1,
+          "name": "newsid"
+        },
+        {
+          "id": 2,
+          "name": "embargodate"
+        },
+        {
+          "id": 3,
+          "name": "organization"
+        },
+        {
+          "id": 4,
+          "name": "type"
+        },
+        {
+          "id": 5,
+          "name": "subject"
+        }
+      ],
+      "ANNOUNCEMENTS_target_tds_article": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "AUCTIONS_target_tds": [
+        {
+          "id": 1,
+          "name": "description"
+        },
+        {
+          "id": 2,
+          "name": "code"
+        },
+        {
+          "id": 3,
+          "name": "stockcode"
+        },
+        {
+          "id": 4,
+          "name": "issuer"
+        },
+        {
+          "id": 5,
+          "name": "issuedate"
+        },
+        {
+          "id": 6,
+          "name": "agent"
+        }
+      ],
+      "AUCTIONS_target_tds_article": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "STOCK_target_tds": [
+        {
+          "id": 1,
+          "name": "code"
+        },
+        {
+          "id": 2,
+          "name": "description"
+        },
+        {
+          "id": 3,
+          "name": "isin"
+        },
+        {
+          "id": 4,
+          "name": "issuer"
+        },
+        {
+          "id": 5,
+          "name": "facilitycode"
+        },
+        {
+          "id": 6,
+          "name": "instrumentid"
+        },
+        {
+          "id": 7,
+          "name": "issuedate"
+        },
+        {
+          "id": 8,
+          "name": "maturity"
+        },
+        {
+          "id": 9,
+          "name": "currency"
+        },
+        {
+          "id": 10,
+          "name": "exchnagerate"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "EurNxtEq": {
+      "articlesperpage": 1,
+      "maximum_pages": 600,
+      "chunks_limit": 600,
+      "listExtractSize": 500,
+      "chunck_size": 3,
+      "delay_min": 2,
+      "delay_max": 7,
+      "tor_timeout": 30000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 1,
+      "use_ediagadir_proxy": 0,
+      "sendFileEmails": 0,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com,j.benhimouda@exchange-data.com,y.baddouh@exchange-data.com"
+    },
+    "hkmstr": {
+      "maximum_pages": 20,
+      "pagesize": 1000,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 50000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "marketscreener": {
+      "matchshares_chunks_limit": 600,
+      "matchshares_chunck_size": 4,
+      "floaturls_chunks_limit": 600,
+      "floaturls_chunck_size": 4,
+      "getfloats_chunks_limit": 600,
+      "getfloats_chunck_size": 4,
+      "maximum_pages": 3,
+      "chunks_limit": 1000,
+      "chunck_size": 4,
+      "delay_min": 3,
+      "delay_max": 6,
+      "tor_timeout": 20000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 1,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "symbol"
+        },
+        {
+          "id": 2,
+          "name": "label"
+        },
+        {
+          "id": 6,
+          "name": "market"
+        },
+        {
+          "id": 7,
+          "name": "type"
+        }
+      ],
+      "free_float_target_tds": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "marketscreener_ara": {
+      "matchshares_chunks_limit": 10000,
+      "matchshares_chunck_size": 4,
+      "floaturls_chunks_limit": 10000,
+      "floaturls_chunck_size": 4,
+      "getfloats_chunks_limit": 10000,
+      "getfloats_chunck_size": 4,
+      "maximum_pages": 3,
+      "chunks_limit": 1000,
+      "chunck_size": 4,
+      "delay_min": 2,
+      "delay_max": 4,
+      "tor_timeout": 20000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 1,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+      },
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "symbol"
+        },
+        {
+          "id": 2,
+          "name": "label"
+        },
+        {
+          "id": 6,
+          "name": "market"
+        },
+        {
+          "id": 7,
+          "name": "type"
+        }
+      ],
+      "free_float_target_tds": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "value"
+        }
+      ],
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com"
+    },
+    "nasdaqsweden": {
+      "maximum_pages": 4,
+      "chunks_limit": 10000,
+      "chunck_size": 3,
+      "delay_min": 4,
+      "delay_max": 8,
+      "tor_timeout": 15000,
+      "puppeteer_timeout": 40000,
+      "puppeteer_delay_min": 10,
+      "puppeteer_delay_max": 12,
+      "pupeteer_max_trials": 500,
+      "tor_max_download_trials": 100,
+      "use_tor": 0,
+      "use_public_proxy": 0,
+      "use_awsproxy": 0,
+      "use_ediagadir_proxy": 0,
+      "defheaders": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0",
+        "Connection": "keep-alive",
+        "Origin": "http://www.nasdaqomxnordic.com",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Referer": "http://www.nasdaqomxnordic.com/bonds/sweden",
+        "Accept": "text/html, */*; q=0.01",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+      },
+      "sendFileEmails": 1,
+      "sendFileEmailsToAddress": "ediagadir.systems@gmail.com,k.rmili@exchange-data.com",
+      "target_tds": [
+        {
+          "id": 0,
+          "name": "label"
+        },
+        {
+          "id": 1,
+          "name": "isin"
+        }
+      ],
+      "types": [
+        {
+          "name": "Treasury bonds",
+          "XPath": "//inst",
+          "marketvalue": "GITS:FIGOVTBENCHMARKBONDS40013"
+        },
+        {
+          "name": "Mortgage Bonds",
+          "XPath": "//inst",
+          "marketvalue": "GITS:FIMORTGAGEBONDS40019"
+        },
+        {
+          "name": "Municipales",
+          "XPath": "//inst",
+          "marketvalue": "GITS:ST:STOMU"
+        },
+        {
+          "name": "CPI Linked",
+          "XPath": "//inst",
+          "marketvalue": "GITS:FIINFLATIONLINKEDBONDS40015"
+        },
+        {
+          "name": "NOIS",
+          "XPath": "//inst[starts-with(@nm,'NOIS')]",
+          "marketvalue": "GITS:ST:STODE"
+        },
+        {
+          "name": "RIB",
+          "XPath": "//inst[starts-with(@nm,'RIBA')]",
+          "marketvalue": "GITS:ST:STODE"
+        },
+        {
+          "name": "Treasury bills",
+          "XPath": "//inst",
+          "marketvalue": "GITS:FITREASURYBILLS40009"
+        },
+        {
+          "name": "Corp Bonds",
+          "XPath": "//inst",
+          "marketvalue": "GITS:ST:STOCB"
+        },
+        {
+          "name": "Sustan Bonds",
+          "XPath": "//inst",
+          "marketvalue": "GITS:ST:STOST"
+        },
+        {
+          "name": "Comm Paper",
+          "XPath": "//inst",
+          "marketvalue": "GITS:ST:STOCP"
+        },
+        {
+          "name": "Sus Com Paper",
+          "XPath": "//inst",
+          "marketvalue": "770"
+        },
+        {
+          "name": "Retail Bonds",
+          "XPath": "//inst",
+          "marketvalue": "GITS:SUBORDINATEDLOANS30427,GITS:RETAILCORPORATEBONDSPRICE118,GITS:BONDPRICE30426"
+        },
+        {
+          "name": "retail Gov Bonds",
+          "XPath": "//inst[@isrid+=+'STAT']",
+          "marketvalue": "M:GITS:ST:STORB"
+        },
+        {
+          "name": "Sustan Retail prod",
+          "XPath": "//inst",
+          "marketvalue": "M:GITS:ST:STOUP"
+        },
+        {
+          "name": "Conv loan",
+          "XPath": "//inst",
+          "marketvalue": "M:GITS:ST:STOCV"
+        },
+        {
+          "name": "Conv L first",
+          "XPath": "//inst",
+          "marketvalue": "M:GITS:FS:STOFV"
+        },
+        {
+          "name": "Lottery Loan",
+          "XPath": "//inst",
+          "marketvalue": "GITS:ST:STOLB"
+        },
+        {
+          "name": "Credit Cert",
+          "XPath": "//inst",
+          "marketvalue": "GITS:ST:STOCC"
+        },
+        {
+          "name": "Retail Corp Bonds",
+          "XPath": "//inst",
+          "marketvalue": "GITS:RETAILCORPORATEBONDSPRICE118,L:GITS:ATT_O_RETAIL_CORPORATE_BONDS_PRI"
+        }
+      ]
+    }
+  },
+  "PROD": {}
+}
